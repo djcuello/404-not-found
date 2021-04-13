@@ -25,6 +25,7 @@ margin:0px;
     min-height: 80vh;
     align-items: center;
     margin-top:2.5rem;
+    
 }
 
 .info{
@@ -102,7 +103,7 @@ text-align: center;
     }
 
 
-@media (max-width:1023px) {
+@media (max-width:800px) {
     
 
     .Error-info{
@@ -121,6 +122,7 @@ text-align: center;
     .row{
       flex-direction: column;
       margin-top: 5rem;
+      margin-bottom: 5rem;
     }
     
     .info{
