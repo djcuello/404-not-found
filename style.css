@@ -4,7 +4,7 @@ margin:0px;
 
 }
 
-.all-in{}
+
 
 .Error-info{
     font-family: Inconsolata;
@@ -15,7 +15,7 @@ margin:0px;
     letter-spacing: -0.08em;
     text-transform: uppercase;
     color: #333333; 
-    margin: 1%;   
+    margin: 1rem;   
 
 }
 .row{
@@ -74,9 +74,10 @@ color: #4F4F4F;
     text-transform: uppercase;
     color: #FFFFFF;
     background: #333333;
-    padding: 3%;
+    padding: 24px 43px;
     display: inline-block;
     text-decoration: none;
+    margin-top: 1rem;
 }
 
 
@@ -94,3 +95,101 @@ color: #4F4F4F;
     width: 100%;
     height: 2.5rem;
     }
+
+
+@media (max-width:425px) {
+    
+
+    .Error-info{
+        font-family: Inconsolata;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+        margin: 5%;
+        color: #333333;
+          
+    
+    }
+    .row{
+      flex-direction: column;
+    }
+    
+    .info{
+    padding: 5%;
+    }
+    
+    .scarecrow{
+     padding: 5%;
+    }
+    
+    .scarecrow img{
+        width: 100%;
+    
+    }
+    
+    .info h1{
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+        
+        /* Gray 1 */
+        
+        color: #333333;
+    
+    }
+    
+    
+    
+    .info p {
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+        
+        /* Gray 2 */
+        
+        color: #4F4F4F;
+    }
+    
+    .info a{
+        font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: -0.035em;
+text-transform: uppercase;
+        color: #FFFFFF;
+        background: #333333;
+        padding: 24px 43px;
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    
+    .footer{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        text-align: center;
+        bottom: 0px;
+        margin:0 auto;
+        position: absolute;
+        width: 100%;
+        height: 2.5rem;
+        }
+
+}
