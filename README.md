@@ -41,7 +41,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - Where can I see your demo?
   The Demo can be seen in the following link: https://musing-ritchie-7ec618.netlify.app
 - What was your experience?
-  This was a easy example for begginers, I alredy have some of the necesary skill but i was triying to reinforce all the knowledge that i had.
+  This was a easy example for begginers, I alredy have some of the necessary skill but i was triying to reinforce all the knowledge that i had.
 - What have you learned/improved?
   In first place, i was trying to do this problem with some row and columns adjustin the width according to the resolution. But later i realize it would be a lot easier with flexbox,
   so i use flexbox to manipulate the position of the central contents and later I just add some css from sigma.
