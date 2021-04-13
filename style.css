@@ -21,8 +21,9 @@ margin:0px;
 .row{
     display: flex;
     align-content: center;
-    min-height: 80vh;
+    min-height: 85vh;
     align-items: center;
+    margin-top:2.5rem;
 }
 
 .info{
@@ -83,12 +84,15 @@ color: #4F4F4F;
 
 .footer{
     font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-    text-align: center;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #BDBDBD;
     bottom: 0px;
     margin:0 auto;
     position: absolute;
@@ -115,6 +119,7 @@ color: #4F4F4F;
     }
     .row{
       flex-direction: column;
+      margin-top: 5rem;
     }
     
     .info{
@@ -184,7 +189,10 @@ text-transform: uppercase;
         font-size: 14px;
         line-height: 17px;
         /* identical to box height */
+        
         text-align: center;
+        
+        color: #BDBDBD;
         bottom: 0px;
         margin:0 auto;
         position: absolute;
